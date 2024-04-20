@@ -18,9 +18,9 @@ const Home = () => {
     }
     setLoading(false);
   }
-  useEffect ( (=> {
+  useEffect ( ()=> {
     fetchProductData();
-  }))
+  },[])
   return <div>This is Home Page</div>;
 };
 
