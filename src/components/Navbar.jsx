@@ -14,7 +14,11 @@ const Navbar = () => {
           <NavLink>
           <p>Home</p>
           </NavLink>
-          <FaShoppingCart/>
+          <NavLink>
+            <div>
+            <FaShoppingCart/>
+            </div>
+          </NavLink>
         </div>
       </div>
     </div>
