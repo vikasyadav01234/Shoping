@@ -8,7 +8,7 @@ const Product = ({post}) => {
         <p>{post.description}</p>
       </div>
       <div>
-        <img src={`${post.image}`}/>
+        <img src={post.image}/>
       </div>
       <div>
         <p>{post.price}</p>
