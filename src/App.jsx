@@ -1,5 +1,7 @@
 const App = () => {
-  return <>Shopping Cart</>;
+  return (
+    <div></div>
+  )
 };
 
 export default App;
