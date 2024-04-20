@@ -7,10 +7,10 @@ const App = () => {
       <Navbar/>
       </div>
       <Routes>
-        <Route></Route>
+        <Route path="/" element={<Home/>}/>
       </Routes>
     </div>
   )
 };
-
+ 
 export default App;
