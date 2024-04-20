@@ -7,7 +7,11 @@ const Cart = () => {
       {
         cart.length > 0 ?
         (<div>
-          
+          {
+            cart.map((item,index)=>{
+              return <CartItem key={item.id} item={item} itemIndex={index}/>
+            })
+          }
         </div>):
         (<div>
           <h1>Cart Empty</h1>
