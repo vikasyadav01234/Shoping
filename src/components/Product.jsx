@@ -10,6 +10,14 @@ const Product = ({post}) => {
       <div>
         <img src=`${post.image}`/>
       </div>
+      <div>
+        <p>{post.price}</p>
+      </div>
+      <button>
+        {
+          selected ? <p>Remove Item</p> : <p>Add to Cart</p>
+        }
+      </button>
     </div>
   )
 };
