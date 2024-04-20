@@ -19,7 +19,7 @@ const Cart = () => {
             <div>Your Cart</div>
             <div>Summary</div>
             <p>
-              <span></span>
+              <span>Total Items : {cart.length}</span>
             </p>
           </div>
         </div>
