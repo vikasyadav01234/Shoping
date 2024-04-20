@@ -18,6 +18,9 @@ const Cart = () => {
           <div>
             <div>Your Cart</div>
             <div>Summary</div>
+            <p>
+              <span></span>
+            </p>
           </div>
         </div>
         </div>
