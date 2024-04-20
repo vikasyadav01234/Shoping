@@ -1,5 +1,8 @@
+import { useState } from "react";
+
 const Home = () => {
   const API_URL = "https://fakestoreapi.com/products";
+  const [loading, setLoading] = useState(false)
 
   async function fetchProductData(){
     setLoading(true);
