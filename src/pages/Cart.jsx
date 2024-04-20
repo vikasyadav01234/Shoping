@@ -9,6 +9,7 @@ const Cart = () => {
         ():
         (<div>
           <h1>Cart Empty</h1>
+          <Link to={"/"}/>
         </div>)
       }
     </div>
