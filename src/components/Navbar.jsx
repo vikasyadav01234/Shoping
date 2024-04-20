@@ -7,6 +7,7 @@ const Navbar = () => {
         <img src=""/>
         <div>
           <p>Home</p>
+          <FaShoppingCart/>
         </div>
       </div>
     </div>
