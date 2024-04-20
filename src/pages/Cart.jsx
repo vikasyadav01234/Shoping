@@ -6,7 +6,9 @@ const Cart = () => {
     <div>
       {
         cart.length > 0 ?
-        ():
+        (<div>
+          
+        </div>):
         (<div>
           <h1>Cart Empty</h1>
           <Link to={"/"}>
