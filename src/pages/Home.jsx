@@ -13,7 +13,7 @@ const Home = () => {
       setPosts[data];
     }
     catch(error){
-
+      console.log("Error aa Gya jii")
     }
     setLoading(false);
   }
