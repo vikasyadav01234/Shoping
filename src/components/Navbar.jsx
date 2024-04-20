@@ -1,3 +1,5 @@
+import{FaShoppingCart} from "react-icons/fa"
+
 const Navbar = () => {
   return (
     <div>
