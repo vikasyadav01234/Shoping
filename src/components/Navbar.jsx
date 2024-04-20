@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex flex-row justify-between">
-        <img src=""/>
+        <img src="../../public/logo.png"/>
         <div>
           <p>Home</p>
           <FaShoppingCart/>
