@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Home = () => {
   const API_URL = "https://fakestoreapi.com/products";
@@ -18,6 +18,9 @@ const Home = () => {
     }
     setLoading(false);
   }
+  useEffect ( (=> {
+    fetchProductData();
+  }))
   return <div>This is Home Page</div>;
 };
 
