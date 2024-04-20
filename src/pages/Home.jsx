@@ -28,9 +28,11 @@ const Home = () => {
         loading ? <Spinner/> : 
         posts.length > 0 ?
         (<div>
-          posts.map((post)=>(
+          {
+            posts.map((post)=>(
             <Product key={posts.id} post={post}/>
           ))
+          }
         </div>):
         <div>
           <p>No Data Found</p>
