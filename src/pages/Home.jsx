@@ -7,8 +7,9 @@ const Home = () => {
 
     }
     catch(error){
-      
+
     }
+    setLoading(false);
   }
   return <div>This is Home Page</div>;
 };
