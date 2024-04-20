@@ -29,7 +29,7 @@ const Home = () => {
         posts.length > 0 ?
         (<div>
           posts.map((post)=>(
-            <Product/>
+            <Product key={posts.id}/>
           ))
         </div>):
         <div>
