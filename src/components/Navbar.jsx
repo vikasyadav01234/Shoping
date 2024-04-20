@@ -11,7 +11,9 @@ const Navbar = () => {
           </div>
         </NavLink>
         <div>
+          <NavLink>
           <p>Home</p>
+          </NavLink>
           <FaShoppingCart/>
         </div>
       </div>
