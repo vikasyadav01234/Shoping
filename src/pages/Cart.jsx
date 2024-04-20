@@ -22,6 +22,9 @@ const Cart = () => {
                 <span>Total Items : {cart.length}</span>
               </p>
             </div>
+            <div>
+              <p>Total Amount</p>
+            </div>
           </div>
         </div>
         ):
