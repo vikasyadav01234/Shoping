@@ -16,6 +16,15 @@ const Product = ({post}) => {
       <div>
         <p>{post.price}</p>
       </div>
+      {
+        cart.some((p)=> p.id == post.id) ?
+        (<button>
+          Remove Item
+        </button>):
+        (<button>
+          Add to Cart
+        </button>)
+      }
 
     </div>
   )
