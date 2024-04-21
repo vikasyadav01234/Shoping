@@ -28,7 +28,7 @@ const Product = ({post}) => {
         <p>{post.price}</p>
       </div>
       {
-        cart.some((p)=> p.id == post.id) ?
+        cart.some((p)=> p.id === post.id) ?
         (<button
         onClick={removeFromCart}
         >
