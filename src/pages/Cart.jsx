@@ -23,7 +23,7 @@ const Cart = () => {
               </p>
             </div>
             <div>
-              <p>Total Amount</p>
+              <p>Total Amount :{totalAmount}</p>
             </div>
           </div>
         </div>
