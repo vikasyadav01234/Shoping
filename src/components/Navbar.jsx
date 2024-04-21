@@ -21,7 +21,7 @@ const Navbar = () => {
             <FaShoppingCart/>
             {
               cart.length > 0 &&
-              <span className="absolute">{cart.length}</span>
+              <span className="absolute -top-1 -right-2">{cart.length}</span>
             }
             </div>
           </NavLink>
