@@ -1,5 +1,11 @@
 import {FcDeleteDatabase} from "react-icons/fc"
+import { useDispatch } from "react-redux";
+
 const CartItem = ({item, itemIndex}) => {
+  const dispatch = useDispatch();
+  const removeFromCart = () => {
+
+  }
   return (
     <div>
       <div>
