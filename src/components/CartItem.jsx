@@ -5,6 +5,9 @@ const CartItem = ({item, itemIndex}) => {
         <div>
           <img src={item.image}/>
         </div>
+        <div>
+          
+        </div>
       </div>
     </div>
   )
