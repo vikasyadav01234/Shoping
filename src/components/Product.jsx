@@ -14,7 +14,7 @@ const Product = ({post}) => {
     toast.success("Item removed from Cart");
   }
   return (
-    <div>
+    <div className="flex flex-col items-center justify-between">
       <div>
         <p>{post.title}</p>
       </div>
