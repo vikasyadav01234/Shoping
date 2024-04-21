@@ -18,10 +18,12 @@ const Product = ({post}) => {
       </div>
       {
         cart.some((p)=> p.id == post.id) ?
-        (<button>
+        (<button
+        onClick={removeFromCart}
+        >
           Remove Item
         </button>):
-        (<button>
+        (<button onClick={addToCart}>
           Add to Cart
         </button>)
       }
