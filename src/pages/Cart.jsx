@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
 const Cart = () => {
   const {cart} = useSelector((state)=>state);
   const [totalAmount, setTotalAmount] = useState(0);
+  useEffect(()=>{
+    setTotalAmount(cart.reduce((acc, curr) => acc+curr.price));
+  })
   return (
     <div>
       {
