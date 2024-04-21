@@ -1,4 +1,4 @@
-const CartItem = () => {
+const CartItem = ({item, itemIndex}) => {
   return (
     <div>
       <div>
