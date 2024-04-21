@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex flex-row justify-between items-center h-20 max-w-6xl mx-auto">
+      <nav className="flex justify-between items-center h-20 max-w-6xl mx-auto">
         <NavLink to="/">
-          <div>
+          <div className="ml-5">
           <img src="../logo.png" className="h-14"/>
           </div>
         </NavLink>
