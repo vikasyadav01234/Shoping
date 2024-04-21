@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 const Cart = () => {
   const {cart} = useSelector((state)=>state);
-  const [totalAmount, setTotalAmount] = useState();
+  const [totalAmount, setTotalAmount] = useState(0);
   return (
     <div>
       {
