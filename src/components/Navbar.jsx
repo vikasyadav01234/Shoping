@@ -17,7 +17,7 @@ const Navbar = () => {
           <p>Home</p>
           </NavLink>
           <NavLink to="/cart">
-            <div>
+            <div className="relative">
             <FaShoppingCart/>
             {
               cart.length > 0 &&
