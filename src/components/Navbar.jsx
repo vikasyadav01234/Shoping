@@ -10,7 +10,7 @@ const Navbar = () => {
           <img src="../logo.png" className="h-14"/>
           </div>
         </NavLink>
-        <div>
+        <div className="flex items-center font-medium text-slate-100">
           <NavLink to="/">
           <p>Home</p>
           </NavLink>
