@@ -19,7 +19,10 @@ const Navbar = () => {
           <NavLink to="/cart">
             <div>
             <FaShoppingCart/>
-            <span>{cart.length}</span>
+            {
+              cart.length > 0 &&
+              <span>{cart.length}</span>
+            }
             </div>
           </NavLink>
         </div>
