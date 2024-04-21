@@ -2,7 +2,7 @@ import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { remove, add } from "../redux/Slices/cartSlice";
 
-const Product = ({post}) => {
+const Product = ({post, item}) => {
   const {cart} = useSelector((state)=>state);
   const dispatch = useDispatch();
   const addToCart = () =>{
