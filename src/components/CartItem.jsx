@@ -1,3 +1,4 @@
+import {FcDeleteDatabase} from "react-icons"
 const CartItem = ({item, itemIndex}) => {
   return (
     <div>
