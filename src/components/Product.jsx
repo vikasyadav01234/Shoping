@@ -1,7 +1,8 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const Product = ({post}) => {
-  const {cart} = useSelector((state)=>state)
+  const {cart} = useSelector((state)=>state);
+  const dispatch = useDispatch();
   return (
     <div>
       <div>
