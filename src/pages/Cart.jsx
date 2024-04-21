@@ -6,7 +6,7 @@ const Cart = () => {
   const [totalAmount, setTotalAmount] = useState(0);
   useEffect(()=>{
     setTotalAmount(cart.reduce((acc, curr) => acc+curr.price));
-  })
+  },[cart])
   return (
     <div>
       {
