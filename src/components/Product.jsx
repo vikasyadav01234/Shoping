@@ -1,4 +1,7 @@
+import { useSelector } from "react-redux";
+
 const Product = ({post}) => {
+  const {cart} = useSelector((state)=>state)
   return (
     <div>
       <div>
@@ -13,7 +16,7 @@ const Product = ({post}) => {
       <div>
         <p>{post.price}</p>
       </div>
-      
+
     </div>
   )
 };
