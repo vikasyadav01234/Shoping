@@ -11,6 +11,9 @@ const CartItem = ({item, itemIndex}) => {
           <h1>{item.description}</h1>
           <div>
             <p>{item.price}</p>
+            <div>
+              <FcDeleteDatabase/>
+            </div>
           </div>
         </div>
       </div>
