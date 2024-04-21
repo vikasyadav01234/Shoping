@@ -8,6 +8,9 @@ const CartItem = ({item, itemIndex}) => {
         <div>
           <h1>{item.title}</h1>
           <h1>{item.description}</h1>
+          <div>
+            <p>{item.price}</p>
+          </div>
         </div>
       </div>
     </div>
