@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { useSelector } from "react-redux";
 
 const Cart = () => {
   const {cart} = useSelector((state)=>state);
+  const [totalAmount, setTotalAmount] = useState();
   return (
     <div>
       {
@@ -23,7 +25,7 @@ const Cart = () => {
               </p>
             </div>
             <div>
-              <p>Total Amount :{totalAmount}</p>
+              <p>Total Amount :${totalAmount}</p>
             </div>
           </div>
         </div>
