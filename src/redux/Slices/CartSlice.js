@@ -7,7 +7,10 @@ export const CartSlice = createSlice({
         add:(state, action) => {
             state.push(action.payload);
         },
-        remove: () => {},
+        remove: (state, action) => {
+            state.push(action.payload);
+            
+        },
     }
 });
 
