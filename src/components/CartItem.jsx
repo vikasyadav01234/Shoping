@@ -3,7 +3,7 @@ const CartItem = ({item, itemIndex}) => {
     <div>
       <div>
         <div>
-          <img src={}/>
+          <img src={item.image}/>
         </div>
       </div>
     </div>
