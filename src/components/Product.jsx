@@ -44,7 +44,8 @@ const Product = ({post}) => {
             Remove Item
           </button>):
           (<button
-          className="text-gray-700 border-2 border-gray-700 rounded-full" onClick={addToCart}>
+          className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold text-[12px]
+          p-1 px-3 uppercase" onClick={addToCart}>
             Add to Cart
           </button>)
         }
