@@ -18,7 +18,7 @@ const Product = ({post}) => {
     hover:scale-110 transition-all duration-300 ease-in 
     shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset]">
       <div>
-        <p className="text-gray-700 font-serif">{post.title}</p>
+        <p className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">{post.title}</p>
       </div>
       <div>
         <p>{post.description.split(" ").slice(0,10).join(" ") + "..."}</p>
