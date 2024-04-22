@@ -37,7 +37,8 @@ const Product = ({post}) => {
         {
           cart.some((p)=> p.id === post.id) ?
           (<button
-          className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold text-[12px]"
+          className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold text-[12px]
+          p-1"
           onClick={removeFromCart}
           >
             Remove Item
