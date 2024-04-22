@@ -26,7 +26,7 @@ const Product = ({post}) => {
       <div className="max-h-[180px]">
         <img src={post.image} className="h-full w-full"/>
       </div>
-      <div>
+      <div className="flex">
         <div>
           <p>{post.price}</p>
         </div>
