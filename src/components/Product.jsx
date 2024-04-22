@@ -29,7 +29,9 @@ const Product = ({post}) => {
       <div className="flex justify-between gap-11">
         <div>
 
-          <p className="text-green-600 font-semibold">${post.price}</p>
+          <p className="text-green-600 font-semibold">
+            ${post.price}
+          </p>
         
         </div>
         {
