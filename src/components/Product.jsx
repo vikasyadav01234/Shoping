@@ -11,7 +11,7 @@ const Product = ({post}) => {
   }
   const removeFromCart = () => {
     dispatch(remove(post.id));
-    toast.success("Item removed from Cart");
+    toast.fail("Item removed from Cart");
   }
   return (
     <div className="flex flex-col items-center justify-between
