@@ -26,7 +26,7 @@ const Product = ({post}) => {
       <div className="max-h-[180px]">
         <img src={post.image} className="h-full w-full"/>
       </div>
-      <div className="flex justify-between gap-11">
+      <div className="flex justify-between gap-11 items-center w-full mt-5">
         <div>
 
           <p className="text-green-600 font-semibold">
