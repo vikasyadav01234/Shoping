@@ -28,7 +28,7 @@ const Product = ({post}) => {
       </div>
       <div className="flex justify-between gap-11">
         <div>
-          <p>{post.price}</p>
+          <p className="text-green-600 font-semibold">${post.price}</p>
         </div>
         {
           cart.some((p)=> p.id === post.id) ?
