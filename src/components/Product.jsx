@@ -42,7 +42,8 @@ const Product = ({post}) => {
           >
             Remove Item
           </button>):
-          (<button onClick={addToCart}>
+          (<button
+          className="text-gray-700 border-2 border-gray-700 rounded-full" onClick={addToCart}>
             Add to Cart
           </button>)
         }
