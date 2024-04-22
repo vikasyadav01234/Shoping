@@ -27,20 +27,22 @@ const Product = ({post}) => {
         <img src={post.image} className="h-full w-full"/>
       </div>
       <div>
-        <p>{post.price}</p>
-      </div>
-      {
-        cart.some((p)=> p.id === post.id) ?
-        (<button
-        onClick={removeFromCart}
-        >
-          Remove Item
-        </button>):
-        (<button onClick={addToCart}>
-          Add to Cart
-        </button>)
-      }
+        <div>
+          <p>{post.price}</p>
+        </div>
+        {
+          cart.some((p)=> p.id === post.id) ?
+          (<button
+          onClick={removeFromCart}
+          >
+            Remove Item
+          </button>):
+          (<button onClick={addToCart}>
+            Add to Cart
+          </button>)
+        }
 
+      </div>
     </div>
   )
 };
