@@ -21,7 +21,7 @@ const Cart = () => {
             })
           }
           </div>
-          <div>
+          <div className="w-[100%] md:w-[40%] mt-5  flex flex-col">
             <div>
               <div>Your Cart</div>
               <div>Summary</div>
