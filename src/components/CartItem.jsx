@@ -17,7 +17,7 @@ const CartItem = ({item, itemIndex}) => {
         </div>
         <div className="md:ml-10 self-start space-y-5 w-[100%] md:w-[70%]">
           <h1 className="text-xl text-slate-700 font-semibold">{item.title}</h1>
-          <h1>{item.description}</h1>
+          <h1 className="text-base text-slate-700 font-medium">{item.description}</h1>
           <div>
             <p>{item.price}</p>
             <div onClick={removeFromCart}>
