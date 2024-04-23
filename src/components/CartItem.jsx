@@ -13,7 +13,7 @@ const CartItem = ({item, itemIndex}) => {
     <div className="flex items-center p-2 md:p-5 justify-between   mt-2 mb-2 md:mx-5 ">
       <div className="flex flex-col md:flex-row p-0 md:p-3 gap-5 items-center">
         <div className="w-[30%]">
-          <img src={item.image}/>
+          <img className="object-cover "  src={item.image}/>
         </div>
         <div>
           <h1>{item.title}</h1>
