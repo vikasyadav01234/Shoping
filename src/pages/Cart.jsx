@@ -27,7 +27,7 @@ const Cart = () => {
               <div className="font-semibold text-xl text-green-800 ">Your Cart</div>
               <div className="font-semibold text-5xl text-green-700  -mt-5">Summary</div>
               <p className="text-xl">
-                <span>Total Items : {cart.length}</span>
+                <span className="text-gray-700 font-semibold text-xl">Total Items : {cart.length}</span>
               </p>
               </div>
             </div>
