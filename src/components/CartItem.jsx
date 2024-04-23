@@ -15,8 +15,8 @@ const CartItem = ({item, itemIndex}) => {
         <div className="w-[30%]">
           <img className="object-cover "  src={item.image}/>
         </div>
-        <div>
-          <h1>{item.title}</h1>
+        <div className="md:ml-10 self-start space-y-5 w-[100%] md:w-[70%]">
+          <h1 className="text-xl text-slate-700 font-semibold">{item.title}</h1>
           <h1>{item.description}</h1>
           <div>
             <p>{item.price}</p>
