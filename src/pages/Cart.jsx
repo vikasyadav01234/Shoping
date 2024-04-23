@@ -32,7 +32,7 @@ const Cart = () => {
               </div>
             </div>
             <div className="flex flex-col">
-              <p>Total Amount :${totalAmount}</p>
+              <p className="text-xl font-bold"><span className="text-gray-700 font-semibold">Total Amount :</span>${totalAmount}</p>
               <button>
                 CheckOut Now
               </button>
