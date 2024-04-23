@@ -23,11 +23,13 @@ const Cart = () => {
           </div>
           <div className="w-[100%] md:w-[40%] mt-5  flex flex-col">
             <div className="flex flex-col p-5 gap-5 my-14  h-[100%] justify-between">
+              <div className="flex flex-col gap-5 ">
               <div>Your Cart</div>
               <div>Summary</div>
               <p>
                 <span>Total Items : {cart.length}</span>
               </p>
+              </div>
             </div>
             <div>
               <p>Total Amount :${totalAmount}</p>
