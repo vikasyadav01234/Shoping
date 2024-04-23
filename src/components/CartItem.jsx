@@ -10,7 +10,7 @@ const CartItem = ({item, itemIndex}) => {
     toast.success("Item removed")
   }
   return (
-    <div>
+    <div className="flex items-center p-2 md:p-5 justify-between   mt-2 mb-2 md:mx-5 ">
       <div>
         <div>
           <img src={item.image}/>
