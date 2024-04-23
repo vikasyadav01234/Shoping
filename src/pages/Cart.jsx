@@ -13,7 +13,7 @@ const Cart = () => {
     <div>
       {
         cart.length > 0 ?
-        (<div>
+        (<div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-center">
           <div>
           {
             cart.map((item,index)=>{
