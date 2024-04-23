@@ -41,7 +41,7 @@ const Cart = () => {
         </div>
         ):
         (<div className="min-h-[80vh] flex flex-col items-center justify-center">
-          <h1>Cart Empty</h1>
+          <h1 className="text-gray-700 font-semibold text-xl mb-2">Cart Empty</h1>
           <Link to={"/"}>
             <button>
               Shop Now
