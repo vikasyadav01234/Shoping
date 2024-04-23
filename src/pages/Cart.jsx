@@ -31,7 +31,7 @@ const Cart = () => {
               </p>
               </div>
             </div>
-            <div>
+            <div className="flex flex-col">
               <p>Total Amount :${totalAmount}</p>
               <button>
                 CheckOut Now
