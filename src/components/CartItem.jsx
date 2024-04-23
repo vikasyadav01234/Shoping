@@ -19,7 +19,7 @@ const CartItem = ({item, itemIndex}) => {
           <h1 className="text-xl text-slate-700 font-semibold">{item.title}</h1>
           <h1 className="text-base text-slate-700 font-medium">{item.description}</h1>
           <div className="flex items-center justify-between">
-            <p>{item.price}</p>
+            <p className="font-bold text-lg text-green-600">{item.price}</p>
             <div onClick={removeFromCart}>
               <FcDeleteDatabase/>
             </div>
