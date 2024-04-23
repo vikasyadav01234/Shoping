@@ -40,7 +40,7 @@ const Cart = () => {
           </div>
         </div>
         ):
-        (<div>
+        (<div className="min-h-[80vh] flex flex-col items-center justify-center">
           <h1>Cart Empty</h1>
           <Link to={"/"}>
             <button>
