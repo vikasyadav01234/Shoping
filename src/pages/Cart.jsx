@@ -25,7 +25,7 @@ const Cart = () => {
             <div className="flex flex-col p-5 gap-5 my-14  h-[100%] justify-between">
               <div className="flex flex-col gap-5 ">
               <div className="font-semibold text-xl text-green-800 ">Your Cart</div>
-              <div>Summary</div>
+              <div className="font-semibold text-5xl text-green-700  -mt-5">Summary</div>
               <p>
                 <span>Total Items : {cart.length}</span>
               </p>
